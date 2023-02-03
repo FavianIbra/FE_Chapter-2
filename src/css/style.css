@@ -72,7 +72,7 @@ section {
 /* home style start */
 .home {
   display: flex;
-  background: red;
+  background: url(../component/asset/s.png);
   background-size: cover;
   height: 100vh;
   color: #1b1b1b;
