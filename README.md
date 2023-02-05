@@ -4,11 +4,14 @@
 
 ## Documentation
 
-- Page Beranda
+- Page home
 
-![form-page](./dokumentasi/Home.PNG)
+![image](https://user-images.githubusercontent.com/80156805/216799754-57ffe991-4434-4526-a843-eabaed1ac4a1.png)
 
-- Page Tenta
+- Page Produk
+
+![Uploading image.png…]()
+
 
 ## Features
 
