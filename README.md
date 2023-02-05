@@ -27,7 +27,7 @@
 
 ## Link
 
-[Link Website]([https://abyansyah-aa.github.io/Tugasbesar.github.io/Home/index.html](https://tefa-chapter-2.vercel.app/))
+[Link Website](https://tefa-chapter-2.vercel.app/)
 
 
 ## Our Temas
