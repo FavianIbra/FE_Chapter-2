@@ -10,7 +10,7 @@
 
 - Page Produk
 
-![Uploading image.png…]()
+![image](https://user-images.githubusercontent.com/80156805/216799829-7343a2c6-b3ef-4a11-b317-3eec873043e0.png)
 
 
 ## Features
