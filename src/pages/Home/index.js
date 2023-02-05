@@ -1,29 +1,22 @@
-import React, { Component } from 'react';
-import '../../css/style.css';
+import React from 'react';
+import Navbar from '../../component/Navbar/navbar';
+import Home from '../../component/Home/Index';
+import About from '../../component/About';
+import Tabbing from '../../component/Tabbing/team';
+import Footer from '../footer';
+import '../../css/style.css'
 
-class Home extends Component {
-  render() {
-    return (
-      <section className="home" id='home'>
-        <div className="max-width">
-          <div className="home-content">
-            <div className="judul-1">
-              <span>Welcome to</span>
-              <div className="typing">
-                <span>kelompok 2</span>
-              </div>
-            </div>
-            <div className="isi">
-              <p>Sekelompok orang yang suka dengan UKL dan dia</p>
-              <a href="#about">
-                <span></span>
-              </a>
-            </div>
-          </div>
-        </div>
-      </section>
-    );
-  }
-}
 
-export default Home;
+const Index = () => {
+  return (
+    <React.Fragment>
+      <Navbar />
+      <Home />
+      <About />
+      <Tabbing />
+      <Footer />
+    </React.Fragment>
+  );
+};
+
+export default Index;

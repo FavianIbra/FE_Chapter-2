@@ -1,17 +1,17 @@
 import React from 'react';
-import Navbar from './component/Navbar/navbar';
-import Home from './pages/Home/index';
-import Tabbing from './component/Tabbing/team';
-import Footer from './pages/footer/index'
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import Home from './pages/Home/index'
+import Product from './pages/product/Product';
+
 
 function App() {
   return (
-    <React.Fragment>
-      <Navbar />
-      <Home/>
-      <Tabbing/>
-      <Footer/>
-    </React.Fragment>
+    <BrowserRouter>
+      <Routes>
+        <Route path='/' element={<Home/>}/>
+        <Route path='/product' element={<Product/>}/>
+      </Routes>
+    </BrowserRouter>
   );
 }
 

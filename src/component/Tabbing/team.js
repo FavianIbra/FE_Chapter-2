@@ -1,8 +1,7 @@
 import React, { Component } from 'react';
-import '../../css/style.css';
 import { tabbing } from './pages';
-import klik from './tabbing';
-import pop from './modal';
+import klik from '../js/tabbing';
+import pop from '../js/modal';
 
 
 class Team extends Component {
